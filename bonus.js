@@ -3,7 +3,13 @@
 
 // chiedo a due persone quanti anni anno
 var userUno = parseInt(prompt("Utente uno, quanti anni hai?"));
-var userDue = parseInt(prompt("Utente due, quanti anni hai?"));
+var userDueStringa = prompt("Utente due, quanti anni hai?");
+
+console.log(userDueStringa + 10);
+
+var userDue = parseInt(userDueStringa);
+
+console.log("questa è un numero " + (userDue + 10));
 
 var etaMaggiore;
 
