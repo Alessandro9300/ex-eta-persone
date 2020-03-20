@@ -1,7 +1,7 @@
 // Inserisci con due prompt l’età di due persone (persona1, persona2) e stampa a schermo il numero più grande.
 
 
-// chiedo a due persone quanti anni anno
+// chiedo a due persone quanti anni hanno
 var userUno = parseInt(prompt("Utente uno, quanti anni hai?"));
 var userDueStringa = prompt("Utente due, quanti anni hai?");
 
